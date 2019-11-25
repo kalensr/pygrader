@@ -1,5 +1,12 @@
+# _write_test_program - reads into memory, the program undertests
+# modifies the program by adding function and return statements, and writes
+# to disk a new program (named _prg_undr_test.py) that can be imported
+# and called by _prog_driver.py
+# 	[code is too complex; will need to introduce regex, and reduce complexity, 
+# 	and a number of unit tests]
+# maintained by kalen.howell@gmail.com 
 
-# write program to test - (copied and modified from student test program)
+
 import os
 
 def to_funct(fpath, file_name, return_results, cr_func_w_main=False):        

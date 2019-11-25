@@ -1,3 +1,9 @@
+# _prog_driver.py - is a multithreaded application used to: 
+# 1. launch the program under tests
+# 2. drive data entry of the program under tests
+# 3. compares expted results against actual results of the program under tests
+# maintained by kalen.howell@gmail.com
+
 import time
 from pynput.keyboard import Key, Controller
 import threading
