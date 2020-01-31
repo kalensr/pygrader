@@ -16,9 +16,9 @@ import _write_test_program as tp
 # return_results - the name of the primary function; returns results of prog execution  
 # cr_func_w_main - True - indicates the program has main() function
 #		   False - indicates the program has no function. so create one
-tp.to_funct(fpath='/Users/kalenhowellsr/Downloads/Debugging_Exercise_2_Corrected',
-            file_name='Debug1_Corrected.py',
-            return_results='m',
+tp.to_funct(fpath='C:\\Users\\KXH\\project_work\\python_work\\pygrader\\pygrader\\test_dir\\',
+            file_name='Cookies.py',
+            return_results='sugarNeeded, butterNeeded, flourNeeded',
             cr_func_w_main=True)
 
 # after the new program is written, it is imported and driven by _prog_driver
@@ -26,8 +26,8 @@ import _prog_driver as dr
 
 # input_data - the data to be entered into the running program under tests. 
 # expected_results - the expected results to be returned by the program under tests. 
-dr.test(input_data=['10', '5'] , expected_results= (10))
-dr.test(input_data=['5', '10'] , expected_results= (10))
+dr.test(input_data=['24'] , expected_results= (0.75, 0.5, 1.375))
+#dr.test(input_data=['5', '10'] , expected_results= (10))
     
     
 

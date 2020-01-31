@@ -33,7 +33,7 @@ def to_funct(fpath, file_name, return_results, cr_func_w_main=False):
                     line = "\t" + line
                 cnt =+1
                 out_file.write(line)
-            out_file.write("\n\treturn " + results)
+            out_file.write("\n\treturn " + return_results)
     if cr_func_w_main == True:
         in_funct = False
         ret_writen = False
