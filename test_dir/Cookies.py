@@ -1,19 +1,19 @@
 # Purpose: calculate the amount of ingredients needed for
 # a specified number of cookies.
-# Name : Mariah Love
-# Date: January 25, 2020
+# Name: Justin Moore
+# Date: February 1, 2020
 
 # Input: number of cookies
 cookies = int(input("Enter the number of cookies: "))
 
-# Create named constants to calculate the amount of ingredients needed
+# Create named contstants to calculate the amount of ingredeients needed
 # for one cookie (we know the amount needed for 48 cookies, so we
-# divide that by 48).
+# divide that by 48)
 SUGAR = 1.5/48
 BUTTER = 1/48
 FLOUR = 2.75/48
 
-# Multiplying the number of cookies wanted by each ingredient (for one cookie)
+# Multiply the number of cookies wanted by each ingredient (for one cookie)
 sugarNeeded = SUGAR * cookies
 butterNeeded = BUTTER * cookies
 flourNeeded = FLOUR * cookies
