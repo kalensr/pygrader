@@ -19,7 +19,7 @@ import _write_test_program as tp
 tp.to_funct(fpath='C:\\Users\\KXH\\project_work\\python_work\\pygrader\\pygrader\\test_dir\\',
             file_name='Cookies.py',
             return_results='sugarNeeded, butterNeeded, flourNeeded',
-            cr_func_w_main=True)
+            cr_func_w_main=False)
 
 # after the new program is written, it is imported and driven by _prog_driver
 import _prog_driver as dr
