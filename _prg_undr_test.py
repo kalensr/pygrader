@@ -1,30 +1,29 @@
 def do_work():
-	# Purpose: calculate the amount of ingredients needed for
-	# a specified number of cookies.
-	# Name: Justin Moore
-	# Date: February 1, 2020
+	# Purpose: Given a mass entered in kilograms, calculate the corresponding weight in newtons
+	# using the formula weight = mass x 9.8.
+	# Name: Matthew Scarborough
+	# Date: 2/10/2020
 	
-	# Input: number of cookies
-	cookies = int(input("Enter the number of cookies: "))
+	# Declared named constants
+	CONVERSION_FACTOR = 9.8
+	MINIMUM_WEIGHT = 100
+	MAXIMUM_WEIGHT = 500
 	
-	# Create named contstants to calculate the amount of ingredeients needed
-	# for one cookie (we know the amount needed for 48 cookies, so we
-	# divide that by 48)
-	SUGAR = 1.5/48
-	BUTTER = 1/48
-	FLOUR = 2.75/48
+	# Prompt the user to enter a mass in kilograms
+	mass = float(input("Enter the mass of an object: "))
 	
-	# Multiply the number of cookies wanted by each ingredient (for one cookie)
-	sugarNeeded = SUGAR * cookies
-	butterNeeded = BUTTER * cookies
-	flourNeeded = FLOUR * cookies
+	# Calculate the weight in newtons
+	weight = mass * CONVERSION_FACTOR
 	
-	# Output: number of cups of each ingredient
-	print("The amount of sugar needed is:", format(sugarNeeded, '.3f'), "cups")
-	print("The amount of butter needed is:", format(butterNeeded, '.3f'), "cups")
-	print("The amount of flour needed is:", format(flourNeeded, '.3f'), "cups")
-	
-	# 24 cookies: 0.75, 0.5, 1.375
-	# 65 cookies: 2.03125, 1.35416666, 3.7239583333
+	# Display the weight in newtons, and whether the object is too heavy or too light
+	# If the calculated weight is less than 100 newtons, print a message that it is too light.
+	# If the calculated weight is more than 500 newtons, print a message that it is too heavy.
+	# Otherwise, just print the weight in newtons.
+	if weight < MINIMUM_WEIGHT:
+	    print("The object is too light. The weight is", format(weight, ".1f"), "newtons")
+	elif weight > MAXIMUM_WEIGHT:
+	    print("The object is too heavy. The weight is", format(weight, ",.1f"), "newtons")
+	else:
+	    print("The weight is", format(weight, ".1f"), "newtons")
 
-	return sugarNeeded, butterNeeded, flourNeeded
+	return weight
