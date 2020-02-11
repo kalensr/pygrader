@@ -1,6 +1,6 @@
 # Given a mass entered in kilograms, calculate the corresponding weight in newtons
 # using the formula weight = mass x 9.8
-# Steven Howard
+# student name removed
 # February 8th, 2020
 
 # Declare named constants

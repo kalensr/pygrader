@@ -1,6 +1,6 @@
 # Purpose: calculate the amount of ingredients needed for
 # a specified number of cookies.
-# Name: Justin Moore
+# Name: student name removed
 # Date: February 1, 2020
 
 # Input: number of cookies
