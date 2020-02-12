@@ -61,7 +61,7 @@ The amount of flour needed is: 3.724 cups
   recieved: (2.03125, 1.3541666666666665, 3.723958333333333)
  ```
 
-### Time for grading
+#### Time for grading
 
 Step 1 - (after reading the students program to visually verify standards and general correctness) - I copy the student's program into the designated test directory (the place where pygrader will look for the student's program). I have it named 'test_dir'.
 
@@ -70,7 +70,8 @@ Step 2 - confgure the tests - sometimes the student's program name is different 
 Step 3 - run pygrader to test the program
 
 
-ToDo's: 
+##ToDo's: 
+---
 * create video of utilizing pygrader - to add to README file
 * add more unit tests - ongoing
 
