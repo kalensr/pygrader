@@ -3,7 +3,7 @@
 An experimental python application used to help execute and test student programs.
 The application has been moved to a Jupyter Notebook for better execution and management of tests. 
 
-A tool for instructors to use when grading and testing student python programs. Imagine your an instruction with 26 students. On any given week, a student can have 2 to 3 command line programs to write. These programs require you, the instructor, to launch the program and execute both happy path tests validating the program works, and the output is correct, and negative tests, verifying the program handles errors gracefully. That's a total of 81 programs to manually execute (multiple times) and validate correctness. 
+A tool for instructors to use when grading and testing student python programs. Imagine your an instruction with 26 students. On any given week, a student can have 2 to 3 command line programs to write. These programs require you, the instructor, to launch the program and execute both happy path tests validating the program works, and the output is correct, and negative tests, verifying the program handles errors gracefully. That's more than 52 programs to manually execute (multiple times) and validate correctness. 
 
 Here is where pygrader comes in to save the day!
 
