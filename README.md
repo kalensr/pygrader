@@ -22,45 +22,47 @@ Next
   * specify what input to enter into the program under tests
   * specify what expected results to use for validation
   
-  ```
-  to_funct(fpath=get_test_path(dir="unit_test_dir"),
-              file_name='Cookies.py',
-              return_results='sugarNeeded, butterNeeded, flourNeeded',
-              cr_func_w_main=False)
-  
-  # input_data - the data to be entered into the running program under tests. 
-  # expected_results - the expected results to be returned by the program under tests. 
+_code snippet_
+```
+to_funct(fpath=get_test_path(dir="unit_test_dir"),
+            file_name='Cookies.py',
+            return_results='sugarNeeded, butterNeeded, flourNeeded',
+            cr_func_w_main=False)
 
-  test(prog, input_data=['24'] , expected_results= (0.75, 0.5, 1.375))
-  test(prog, input_data=['65'] , expected_results= (2.03125, 1.3541666666666665, 3.723958333333333))
-  test(prog, input_data=['65'] , expected_results= (2.03125, 1.3542666666666665, 3.723958333333333))
-  
-  ```
+# input_data - the data to be entered into the running program under tests. 
+# expected_results - the expected results to be returned by the program under tests. 
+
+test(prog, input_data=['24'] , expected_results= (0.75, 0.5, 1.375))
+test(prog, input_data=['65'] , expected_results= (2.03125, 1.3541666666666665, 3.723958333333333))
+test(prog, input_data=['65'] , expected_results= (2.03125, 1.3542666666666665, 3.723958333333333))
+```
 
 Using Jupyter Notebook is great - each test configuration lives in its own code block. So you have can have as many configurations as you need for 1 test program, or many. The example above has two tests under one configuration. 
 
 The output of my unit tests is as follows: 
-  ```
-  Enter the number of cookies: 24
-  The amount of sugar needed is: 0.750 cups
-  The amount of butter needed is: 0.500 cups
-  The amount of flour needed is: 1.375 cups
+
+_code snippet_
+```
+Enter the number of cookies: 24
+The amount of sugar needed is: 0.750 cups
+The amount of butter needed is: 0.500 cups
+The amount of flour needed is: 1.375 cups
 
 
-  Enter the number of cookies: 65
-  The amount of sugar needed is: 2.031 cups
-  The amount of butter needed is: 1.354 cups
-  The amount of flour needed is: 3.724 cups
+Enter the number of cookies: 65
+The amount of sugar needed is: 2.031 cups
+The amount of butter needed is: 1.354 cups
+The amount of flour needed is: 3.724 cups
 
 
-  Enter the number of cookies: 65
-  The amount of sugar needed is: 2.031 cups
-  The amount of butter needed is: 1.354 cups
-  The amount of flour needed is: 3.724 cups
+Enter the number of cookies: 65
+The amount of sugar needed is: 2.031 cups
+The amount of butter needed is: 1.354 cups
+The amount of flour needed is: 3.724 cups
 
-   **FAILURE** 	expecting: (2.03125, 1.3542666666666665, 3.723958333333333)
-    recieved: (2.03125, 1.3541666666666665, 3.723958333333333)
-  ```
+ **FAILURE** 	expecting: (2.03125, 1.3542666666666665, 3.723958333333333)
+  recieved: (2.03125, 1.3541666666666665, 3.723958333333333)
+ ```
 
 ### Time for grading
 
