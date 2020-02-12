@@ -70,7 +70,7 @@ Step 2 - confgure the tests - sometimes the student's program name is different 
 Step 3 - run pygrader to test the program
 
 
-##ToDo's: 
+## To Dos:
 ---
 * create video of utilizing pygrader - to add to README file
 * add more unit tests - ongoing
