@@ -22,7 +22,7 @@ Next
   * specify what input to enter into the program under tests
   * specify what expected results to use for validation
   
-_code snippet_
+*example*
 ```
 to_funct(fpath=get_test_path(dir="unit_test_dir"),
             file_name='Cookies.py',
@@ -41,7 +41,7 @@ Using Jupyter Notebook is great - each test configuration lives in its own code 
 
 The output of my unit tests is as follows: 
 
-_code snippet_
+*example*
 ```
 Enter the number of cookies: 24
 The amount of sugar needed is: 0.750 cups
