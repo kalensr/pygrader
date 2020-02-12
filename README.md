@@ -5,7 +5,7 @@ The application has been moved to a Jupyter Notebook for better execution and ma
 
 If you are not familiar with Jupyter Notebook - click the file named: **'pygrader_nb.ipynb'** in the root of this repository, to see the pygrader source code. Checkout the [Jupyter Notebook site](https://jupyter.org/) for more details. 
 
-A tool for instructors to use when grading and testing student python programs. Imagine your an instruction with 26 students. On any given week, a student can have 2 to 3 command line programs to write. These programs require you, the instructor, to launch the program and execute both happy path tests validating the program works, and the output is correct, and negative tests, verifying the program handles errors gracefully. That's more than 52 programs to manually execute (multiple times) and validate correctness. 
+Pygrader is a tool for instructors to use when grading and testing student python programs. Imagine your an instruction with 26 students. On any given week, a student can have 2 to 3 command line programs to write. These programs require you, the instructor, to launch the program and execute both happy path tests validating the program works, and the output is correct, and negative tests, verifying the program handles errors gracefully. That's more than 52 programs to manually execute (multiple times) and validate correctness. 
 
 Here is where pygrader comes in to save the day!
 
