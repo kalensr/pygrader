@@ -11,6 +11,6 @@ ToDo's:
 
 ## Dependencies
 ---
-* Jupyter Notebook
+### [Jupyter Notebook](https://jupyter.org/)
 
-* [pynput](https://pynput.readthedocs.io/en/latest/#)
+### [pynput](https://pynput.readthedocs.io/en/latest/#)
