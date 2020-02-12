@@ -17,7 +17,7 @@ Next
 
 **Test Configuration**
 * specify program name
-* specify which variable object to return for validation
+* specify which variable or object to return from the program under test for validation
 * specify what input to enter into the program under tests
 * specify what expected results to use for validation
   
