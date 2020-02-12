@@ -22,7 +22,7 @@ Next
   * specify what input to enter into the program under tests
   * specify what expected results to use for validation
   
-*example*
+#### Cookie Test Configuration
 ```
 to_funct(fpath=get_test_path(dir="unit_test_dir"),
             file_name='Cookies.py',
@@ -39,9 +39,7 @@ test(prog, input_data=['65'] , expected_results= (2.03125, 1.3542666666666665, 3
 
 Using Jupyter Notebook is great - each test configuration lives in its own code block. So you have can have as many configurations as you need for 1 test program, or many. The example above has two tests under one configuration. 
 
-The output of my unit tests is as follows: 
-
-*example*
+#### Test Execution Output
 ```
 Enter the number of cookies: 24
 The amount of sugar needed is: 0.750 cups
