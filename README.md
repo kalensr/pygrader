@@ -16,11 +16,10 @@ Next
 (note: the test directory lives in the same directory as the notebook)
 
 **Test Configuration**
-* configure pygrader for the test - 
-  * specify program name
-  * specify which variable object to return for validation
-  * specify what input to enter into the program under tests
-  * specify what expected results to use for validation
+* specify program name
+* specify which variable object to return for validation
+* specify what input to enter into the program under tests
+* specify what expected results to use for validation
   
 #### Cookie Test Configuration
 ```
@@ -37,7 +36,7 @@ test(prog, input_data=['65'] , expected_results= (2.03125, 1.3541666666666665, 3
 test(prog, input_data=['65'] , expected_results= (2.03125, 1.3542666666666665, 3.723958333333333))
 ```
 
-Using Jupyter Notebook is great - each test configuration lives in its own code block. So you have can have as many configurations as you need for 1 test program, or many. The example above has two tests under one configuration. 
+Using Jupyter Notebook is great - each test configuration lives in its own code block. So you have can have as many tests with a configuration as you need plus as many configurations that you need. The example above has three tests under one configuration (one failing tests for demonstration purposes). 
 
 #### Test Execution Output
 ```
@@ -66,12 +65,15 @@ The amount of flour needed is: 3.724 cups
 
 Step 1 - (after reading the students program to visually verify standards and general correctness) - I copy the student's program into the designated test directory (the place where pygrader will look for the student's program). I have it named 'test_dir'.
 
+Step 2 - confgure the tests - sometimes the student's program name is different - so that will need to be updated in the test configuration. In more complex programs, the student might be using different variable names in their program, so that will need to be updated in the test configuration as well. 
+
+Step 3 - run pygrader to test the program
+
 
 ToDo's: 
-* [in progress] Create unit tests
-* Add example usage documentation - will record a video and embed in README
-* X-make the tester data driven - where tests can be saved in text files and read by pygrader
-* Jupyter Notebook eliminates the need for a data driven approach using seperate text files for tests.
+* create video of utilizing pygrader - to add to README file
+* add more unit tests - ongoing
+
 
 ## Dependencies
 ---
