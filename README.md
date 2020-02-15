@@ -13,7 +13,26 @@ Here is where pygrader comes in to save the day!
 #### Demo
 ---
 
-<a href="https://www.dropbox.com/s/472a36xtvlp9gi5/Pygrader%20Demo.mp4?dl=0" target="_blank">Pygrader Demo</a>
+<style>
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+</style>
+<body>
+
+<a target="_blank" href="https://www.dropbox.com/s/472a36xtvlp9gi5/Pygrader%20Demo.mp4?dl=0">
+  <img src="https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/shutterstock_1386882278-1-640x427.jpg" alt="Python">
+</a>
+
+</body>
 
 #### Pre-Work
 For programming assignments, I typically write the program myself, to ensure the instructions are correct, as is my expected results. 
