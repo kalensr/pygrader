@@ -14,11 +14,13 @@ Here is where pygrader comes in to save the day!
 ---
 
 
+
 <body>
 
 <a target="_blank" href="https://www.dropbox.com/s/472a36xtvlp9gi5/Pygrader%20Demo.mp4?dl=0">
-  <img src="https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/shutterstock_1386882278-1-640x427.jpg" alt="Python" height="42" width="42">
-</a>View Pygrader Demo
+  <img src="https://github.com/kalensr/pygrader/blob/master/demo_image.png" alt="Pygrader Demo" height="42" width="42">
+</a>
+
 </body>
 
 
