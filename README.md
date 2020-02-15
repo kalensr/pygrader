@@ -18,7 +18,7 @@ Here is where pygrader comes in to save the day!
 <body>
 
 <a target="_blank" href="https://www.dropbox.com/s/472a36xtvlp9gi5/Pygrader%20Demo.mp4?dl=0">
-  <img src="https://github.com/kalensr/pygrader/blob/master/demo_image.png" alt="Pygrader Demo" height="42" width="42">
+  <img src="https://github.com/kalensr/pygrader/blob/master/demo_image.png" alt="Pygrader Demo" height="142" width="142">
 </a>
 
 </body>
