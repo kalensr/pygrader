@@ -1,4 +1,5 @@
 # pygrader
+#### Intro
 ---
 An experimental python application used to help execute and test student programs.
 The application has been moved to a Jupyter Notebook for better execution and management of tests. 
@@ -8,6 +9,10 @@ If you are not familiar with Jupyter Notebook - click the file named: **'pygrade
 Pygrader is a tool for instructors to use when grading and testing student python programs. Imagine your an instruction with 26 students. On any given week, a student can have 2 to 3 command line programs to write. These programs require you, the instructor, to launch the program and execute both happy path tests validating the program works, and the output is correct, and negative tests, verifying the program handles errors gracefully. That's more than 52 programs to manually execute (multiple times) and validate correctness. 
 
 Here is where pygrader comes in to save the day!
+
+#### Demo
+---
+[![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.arstechnica.net%2Fwp-content%2Fuploads%2F2019%2F10%2FGettyImages-977644614-800x869.jpg&imgrefurl=https%3A%2F%2Farstechnica.com%2Finformation-technology%2F2019%2F10%2Fchemists-discover-cross-platform-python-scripts-not-so-cross-platform%2F&tbnid=-iECvGFjeu3iEM&vet=12ahUKEwi9gODdrNTnAhUZQqwKHRvfD_kQMygBegUIARCJAg..i&docid=snRipVEX6j5q-M&w=760&h=475&q=python&hl=en&ved=2ahUKEwi9gODdrNTnAhUZQqwKHRvfD_kQMygBegUIARCJAg)](https://www.dropbox.com/s/472a36xtvlp9gi5/Pygrader%20Demo.mp4?dl=0)
 
 #### Pre-Work
 For programming assignments, I typically write the program myself, to ensure the instructions are correct, as is my expected results. 
