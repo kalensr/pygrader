@@ -12,7 +12,8 @@ Here is where pygrader comes in to save the day!
 
 #### Demo
 ---
-[![See Demo]()](https://www.dropbox.com/s/472a36xtvlp9gi5/Pygrader%20Demo.mp4?dl=0){:target="_blank"}
+
+<a href="https://www.dropbox.com/s/472a36xtvlp9gi5/Pygrader%20Demo.mp4?dl=0" target="_blank">Pygrader Demo</a>
 
 #### Pre-Work
 For programming assignments, I typically write the program myself, to ensure the instructions are correct, as is my expected results. 
