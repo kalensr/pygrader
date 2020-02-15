@@ -18,15 +18,9 @@ Here is where pygrader comes in to save the day!
 
 <a target="_blank" href="https://www.dropbox.com/s/472a36xtvlp9gi5/Pygrader%20Demo.mp4?dl=0">
   <img src="https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/shutterstock_1386882278-1-640x427.jpg" alt="Python" height="42" width="42">
-</a>
-
+</a>View Pygrader Demo
 </body>
 
-<a target="_blank" href="https://www.dropbox.com/s/472a36xtvlp9gi5/Pygrader%20Demo.mp4?dl=0">
-  <img src="https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/shutterstock_1386882278-1-640x427.jpg" alt="Python">
-</a>
-
-</body>
 
 #### Pre-Work
 For programming assignments, I typically write the program myself, to ensure the instructions are correct, as is my expected results. 
